@@ -5,7 +5,7 @@ This code preforms proper orthogonal decomposition on schlieren images by implem
 
 This repository contains all the files and information needed to preform Proper Orthogonal Decomposition on the provided set of Schlieren images, collected at the UTSA Hypersonics laboratory. The images were collected at 50.4kHz using a Photron SA-Z high-speed camera. 
 
-The dataset contains 50k images. The code selects a subset of a few thousand from the AVI files in the repository and runs the analysis on them. The original dataset is approximately 10Gb of data when the files are in .tif format. The use of an AVI file makes the dataset very easy to handle and share. The entire dataset can be found at:
+The dataset contains 50k images that are 896x448 pixels each. The code selects a subset of a few thousand from the AVI files in the repository and runs the analysis on them. The original dataset is approximately 10Gb of data when the files are in .tif format. The use of an AVI file makes the dataset very easy to handle and share. The entire dataset can be found at:
 https://drive.google.com/drive/folders/1lZyCfYOVROu7Hvp3lukIA8v6bdr_45zS?usp=sharing
 
 To run the code, just download the avi files from the Google Drive and have them in the same directory and the code.
